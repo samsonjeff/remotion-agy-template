@@ -1,0 +1,30 @@
+# Remotion & Build Outputs
+node_modules/
+dist/
+build/
+out/
+.remotion/
+
+# Environment & Credentials
+.env
+.env.local
+.env.*.local
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Python & Audio Cache
+__pycache__/
+*.pyc
+
+# Editor directories
+.vscode/
+.idea/
+
+# Large render / media outputs
+*.mp4
+*.webm
+*.mov
+!public/assets/*
+!src/

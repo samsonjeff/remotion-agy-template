@@ -1,0 +1,28 @@
+{
+  "fps": 30,
+  "beat": 18,
+  "bar": 72,
+  "total": 900,
+  "marks": {
+    "introHit": 18,
+    "cut2": 300,
+    "cut3": 600,
+    "end": 900
+  },
+  "scenes": {
+    "scene1Intro": {
+      "from": 0,
+      "duration": 300
+    },
+    "scene2Showcase": {
+      "from": 300,
+      "duration": 300
+    },
+    "scene3Closing": {
+      "from": 600,
+      "duration": 300
+    }
+  },
+  "vo": {},
+  "sfx": []
+}
