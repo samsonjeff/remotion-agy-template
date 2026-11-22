@@ -11,9 +11,22 @@ Adapted from production visual choreography standards in [**explainroo**](https:
 
 ---
 
+## What You Can Build With This Template
+
+As an open-source video-as-code template, this project gives developers, creators, and AI agents the building blocks to create studio-quality motion graphics without After Effects or Premiere:
+
+- **Tech Product Demos and SaaS Launches:** Show off mobile applications, Web3 dApps, and web dashboards using a realistic smartphone mockup with Dynamic Island, camera glare, ambient edge glow, floating glass B-roll cards, and conversational chat bubbles.
+- **Technical Architecture and Pipeline Explainers:** Create step-by-step ByteByteGo- or Vox-style animated architecture diagrams with progressive disclosure nodes, pulse glows, and flowing connectors.
+- **Podcast and Audio Snippets with Kinetic Subtitles:** Generate punchy, word-by-word highlighted kinetic captions (`Captions.tsx`) and deterministic, frame-accurate audio waveforms (`Waveform.tsx`) for social clips.
+- **Autonomous AI Video Generation:** Prompt coding agents (Antigravity, Claude Code, Cursor, Codex) to build and modify scenes deterministically following pre-baked rules for easing, layout hierarchy, and still-frame QA verification.
+- **Music Beat-Snapped Motion:** Build video edits locked to a musical beat grid (100 BPM / 18-frame intervals) with automated audio ducking and rhythmic glow pulsing.
+
+---
+
 ## Features
 
-- **Antigravity & AI Agent Native:** Pre-configured with [`AGENTS.md`](AGENTS.md) and [`GEMINI.md`](GEMINI.md) directives so coding agents strictly adhere to deterministic motion, visual hierarchy, and verification loops.
+- **Antigravity & AI Agent Native:** Pre-configured with [`AGENTS.md`](AGENTS.md) and [`GEMINI.md`](GEMINI.md) directives mandating prerequisite motion skills verification, deterministic motion, visual hierarchy, and deliver-and-verify loops.
+- **Required Motion Skills Integration:** Designed to integrate seamlessly with the `iart-ai/motion-skills` ecosystem (`kinetic-typography-skills`, `data-animation-skills`, `explainer-video-skills`, `motion-design-skills`, `ad-video-skills`, and beat-sync tools) so agents deliver agency-grade animations with zero guesswork.
 - **PhoneFrame Component:** Realistic smartphone mockup with Dynamic Island, camera cutout, and ambient edge glow.
 - **CameraRig Component:** Multi-shot virtual camera providing spring-smoothed pan, tilt, and subtle push-in zooms to uphold the 3-second engagement rule.
 - **Kinetic Captions:** Word-by-word kinetic subtitle typography with glowing keyword highlights.
@@ -71,11 +84,16 @@ git clone https://github.com/samsonjeff/remotion-agy-template.git
 cd remotion-agy-template
 ```
 
-### 2. Install Dependencies
+### 2. Install Dependencies & Required Motion Skills
+
+Install project dependencies:
 
 ```bash
 npm install
 ```
+
+> **Note for AI Agent Workflows:**  
+> All motion skills are strictly required for AI coding agents (Antigravity, Claude Code, Cursor, Codex) to maximize video quality. Ensure your agent has loaded the prerequisite motion skills (`kinetic-typography-skills`, `data-animation-skills`, `explainer-video-skills`, `motion-design-skills`, `ad-video-skills`, `tiktok-video-skills`, and beat-sync QA tools) as detailed in [`AGENTS.md`](AGENTS.md) before prompting scene creation or edits.
 
 ### 3. Start Remotion Studio
 

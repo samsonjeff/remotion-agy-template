@@ -8,6 +8,16 @@
 
 ## 1. Ground Rules for Agents
 
+0. **Prerequisite - Skill Verification & Installation:**
+   - **All skills are strictly required** to maximize the full potential of this template.
+   - Before starting any video editing, scene creation, or animation task, the agent **MUST** verify and ensure that all relevant motion graphics skill packs (from `iart-ai/motion-skills` and template tooling) are installed:
+     - `kinetic-typography-skills`: Word-by-word reveals, bouncy springs, glowing keywords, beat-synced text.
+     - `data-animation-skills`: Frame-accurate animated counters, charts, infographics, and KPI meters.
+     - `explainer-video-skills`: Multi-step storyboard architecture, isometric reveals, and flow diagrams.
+     - `motion-design-skills`: Core timing, easing curves, camera choreography, and visual hierarchy.
+     - `ad-video-skills` & `tiktok-video-skills`: Pacing hooks, 9:16 safe zones, and high-impact CTA cuts.
+     - `remotion-beat-sync` & `remotion-visual-verifier`: Audio grid lock and still-frame QA checks.
+   - If any required skills are missing in the workspace (`.gemini/skills/` or `.agents/skills/`), the agent must download or install them prior to modifying components or writing scenes.
 1. **Deterministic Motion First:**
    - All animations must be pure frame-driven functions (`useCurrentFrame()`, `interpolate`, `spring`).
    - Never use non-deterministic functions like `Math.random()` or `Date.now()`.

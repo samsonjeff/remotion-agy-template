@@ -7,6 +7,7 @@ Before executing any commands, modifying React components, or rendering video, a
    - [**`README.md`**](file:///D:/mume-video/README.md): Template architecture and usage guide.
 
 2. **Core Guidelines:**
+   - **Prerequisite Skills Check:** All skills are required to maximize the full potential of this template. Before starting any video editing, verify and install all necessary motion design skills (e.g., `kinetic-typography-skills`, `data-animation-skills`, `explainer-video-skills`, `motion-design-skills`, `ad-video-skills`, and beat-sync/visual QA tools) in `.gemini/skills/` or workspace skills.
    - **Resolution:** `1920x1080` @ `30 fps`.
    - **Deterministic Animation:** Pure frame-driven interpolations (`useCurrentFrame()`, `interpolate`, `spring`).
    - **Reusable Components:** Leverage `CameraRig`, `PhoneFrame`, `Waveform`, `Captions`, and `SceneTransition` from `src/components/`.
