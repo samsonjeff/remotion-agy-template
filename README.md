@@ -7,6 +7,8 @@
 
 An open-source, deterministic motion graphics and explainer video template built for **[Google Antigravity](https://antigravity.google/)**, **[Remotion v4](https://www.remotion.dev/)**, **React 19**, and **TypeScript**.
 
+This project is a ready-to-use boilerplate designed to eliminate setup friction, boilerplate configuration, and refactoring overhead for creators and AI coding agents. The underlying video creation engine, core rendering technology, and runtime are created and owned by **[Remotion](https://github.com/remotion-dev)**.
+
 Adapted from production visual choreography standards in [**explainroo**](https://github.com/vincentsch/explainroo) and [**motion-skills**](https://github.com/iart-ai/motion-skills), this template empowers both human creators and AI coding agents to edit frame-accurate, beat-synced videos with zero render guesswork.
 
 ---
@@ -151,8 +153,13 @@ Contributions, feature suggestions, and reusable component additions are welcome
 
 ---
 
-## License & Standards
+## License & Acknowledgements
 
-This project is open-source and distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more information.
+This template configuration and scaffolding are open-source and distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more information.
 
 All derivative work and contributions should uphold deterministic animation standards and keep components decoupled from proprietary media assets.
+
+### Acknowledgements
+
+- **[Remotion](https://github.com/remotion-dev)**: The foundational video-in-React framework and rendering engine powering this project. Remotion is owned and maintained by Remotion Innovation GmbH. For commercial usage of the Remotion engine itself, consult [Remotion's license](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).
+- **[explainroo](https://github.com/vincentsch/explainroo)** & **[motion-skills](https://github.com/iart-ai/motion-skills)**: Motion choreography and visual hierarchy design standards.

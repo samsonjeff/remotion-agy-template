@@ -2,6 +2,11 @@ MIT License
 
 Copyright (c) 2026 Jefferson Samson
 
+This template repository is an open-source scaffolding package built on top of Remotion.
+Remotion is created, maintained, and owned by Remotion Innovation GmbH (https://github.com/remotion-dev).
+Please note that Remotion itself is subject to its own licensing terms (Company License / Remotion License).
+Refer to https://github.com/remotion-dev/remotion/blob/main/LICENSE.md for details.
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
